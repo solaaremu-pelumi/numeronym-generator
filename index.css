@@ -1,11 +1,26 @@
-.center {
-    text-align: center
-}
-
-.padding {
-    padding-top: 0.5rem
-}
-
-.blue {
-    color: navy
-}
+@media (max-width: 480px) {
+    .center {
+      text-align: left;
+    }
+  
+    .padding {
+      padding: 0.25rem 0.25rem;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 481px) {
+    .center {
+      text-align: center;
+    }
+  
+    .padding {
+      padding: 0.5rem 0.5rem;
+      text-align: center;
+    }
+  }
+  
+  .blue {
+    color: navy;
+  }
+  
