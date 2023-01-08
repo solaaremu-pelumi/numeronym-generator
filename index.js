@@ -22,7 +22,7 @@ function generateNumeronym() {
 }
 
 function stateHandle(event) {
-    if (input.value === '') {
+    if (input.value.length < 3) {
         btn.disabled = true;
         result_grid.innerHTML = ""
     } else {
